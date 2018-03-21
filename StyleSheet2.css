@@ -1,0 +1,92 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#contactUs-page {
+    margin: 0;
+    background:papayawhip;
+    background-size: cover;
+}
+
+    #contactUs-page a {
+        text-shadow: 0px 1px 20px white;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-right: 4vw;
+        color: coral;
+    }
+
+        #contactUs-page a:hover {
+            text-decoration: none;
+            color: darkcyan;
+        }
+
+#contactUs-inner-page {
+    margin: 2vh 3vw 0 3vw;
+    height: 72vh;
+    background: linear-gradient(to right,lightcoral,hotpink,tomato,salmon,violet,hotpink);
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.4),0 5px 100px 0 rgba(0,0,0,0.2),0 5px 80px 0 lightsalmon inset;
+}
+
+#get-in-touch {
+    margin: 5vh 0;
+}
+
+#contactUs-top-layer {
+    margin: 5rem;
+    box-shadow: 0 5px 20px 0 rgba(30,0,0,0.4),0 5px 100px 0 rgba(0,0,0,0.2),0 5px 80px 0 moccasin inset;
+}
+
+#contactUs-section {
+    margin: 0 1vw 13vh 1vw;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+#contactUs-top-layer h3 {
+    color: papayawhip;
+    font-size: 3rem;
+    font-weight:800;
+}
+
+#contactUs-top-layer p {
+    color: mediumorchid;
+    font-size: 2rem;
+}
+
+.home-cards {
+    padding: 3rem 0rem 4rem 0rem;
+    background: white;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2),0 5px 100px 0 rgba(0,0,0,0.1),0 5px 80px 0 linen inset;
+}
+
+    .home-cards h3 {
+        border-bottom: 1px dotted seagreen;
+    }
+
+    .home-cards:hover {
+        background: white;
+        box-shadow: 0 5px 20px 0 rgba(0,0,0,0.3),0 5px 100px 0 rgba(0,0,0,0.2),0 5px 80px 0 antiquewhite inset;
+    }
+
+footer {
+    padding: 2vh 0 1vh 0;
+    margin: 5vh 0 0 0;
+    background: azure;
+    border-top: 1px dotted peachpuff;
+    box-shadow: 0 5px 40px 0 darkmagenta inset,-2px 5px 150px 0 seagreen inset,-7px 7px 100px 0 teal inset;
+}
+
+    footer a {
+        color: crimson;
+        font-weight: 500;
+        font-size: 1.7rem;
+        text-shadow: 0 2px 50px pink;
+    }
+
+        footer a:hover {
+            color: maroon;
+        }

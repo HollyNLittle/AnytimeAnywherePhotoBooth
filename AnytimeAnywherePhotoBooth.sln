@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AnytimeAnywherePhotoBooth", "..\..\WebSites\AnytimeAnywherePhotoBooth\", "{BFC6A13C-2812-4E6F-9FAB-D56CB1847383}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57333"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\AnytimeAnywherePhotoBooth\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57333\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57333"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\AnytimeAnywherePhotoBooth\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57333\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57333"
+		SlnRelativePath = "..\..\WebSites\AnytimeAnywherePhotoBooth\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC6A13C-2812-4E6F-9FAB-D56CB1847383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC6A13C-2812-4E6F-9FAB-D56CB1847383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Anytime Anywhere Photo Booth</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="blog.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:300,400|Mukta:400,700,800|Prosto+One" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div id="home-page">
+        <ul id="menu">
+            <li><a href="Index.html"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a></li>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="PackageOptions.html">Packages</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Reservations.html">Reservations</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>     <!-- end of navbar -->
+    <!-- header -->
+    <div class="reservation-page">
+        <!--<header id="packages-title">-->
+        <div class="reservations-header">
+            <h2>
+                <span class="logo">Anytime Anywhere </span><br><span class="logo-impact">Photo Booth</span>
+            </h2>
+            <h3 class="subheader">Tell Us About Your Event...</h3>
+        </div>
+    </div>
+    <!-- end of header -->
+
+    <div id="reservations-page">
+        <!-- contact form -->
+        <div class="contact-us-row">
+            <div class="col-sm-8">
+                <div class="contact-form">
+                    <form action="action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                        <input type="email" id="lname" name="email" placeholder="Your email..">
+
+                        <br>
+                        <label for="event">Event Type</label>
+                        <select id="event" name="event">
+                            <option value="australia">Birthday Party</option>
+                            <option value="canada">Wedding Reception</option>
+                            <option value="usa">Shower</option>
+                            <option value="usa">Other</option>
+                        </select>
+                        <label for="event">Package Selection</label>
+                        <select id="event" name="event">
+                            <option value="australia">Economy Package</option>
+                            <option value="canada">Wedding Reception</option>
+                            <option value="usa">Shower</option>
+                            <option value="usa">Other</option>
+                        </select>
+
+                        <label for="subject">Comments</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                        <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                    </form>                    
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="contact-form-pictures">
+                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                    <p class="email">440.323.9090</p>
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    <p class="email">mgregg@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--social media section -->
+    <!--<section class="social-icon-section">
+        <div class="social-icons-header"><h2> Connect with us...</h2></div>
+        <div class="social-icons">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+        </div>
+    </section>-->
+
+    <!--footer-->
+    <!--<footer>
+        <p>
+            <a href="#sheer-section"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></a>
+        </p>
+        <h5>Created by: <a href="hollynlittle.github.io">Holly N. Little <i class="fab fa-hire-a-helper"></i></a></h5>
+    </footer>-->
+    <!--scripts-->
+
+    <!--scripts-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+</body>
+</html>

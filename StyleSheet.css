@@ -1,0 +1,515 @@
+﻿body {
+    color: rgba(248,246,242,0.1);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Candara,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgba(238,231,218,0.3);
+    /*background-color: #f4f4f4;*/
+    /*font-family: Corbel, Arial,sans-serif;*/
+}
+
+/**************navigation***************/
+ul {
+    list-style-type: none;
+    color: dimgray;
+    display: inline-flex;
+    padding: 2vh 0 3vh 0;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255,255,255,0.6);
+}
+
+    ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: darkgrey;
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin-right: 0 7%;
+    }
+
+        ul li a:hover {
+            /*color: rgb(245,157,164);*/
+            color: rgb(252, 138, 169);
+            text-decoration: none;
+        }
+
+/************** home *************/
+.home-body-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/************** home picture *************/
+.image-container {
+    background-color: ivory;
+    margin: 0 0 0 0;
+}
+
+    .image-container img {
+        box-shadow: 0px 0px 25px rgb(255, 255, 255),0 0 25px rgba(0,0,0,0.2);
+        border-radius: 10%;
+    }
+/************** logo section *************/
+.logo-camera {
+    color: rgb(120,90,90);
+    margin: 6vh 0vw 0 0;
+    font-size: 14rem;
+    -ms-transform: rotate(340deg);
+    -webkit-transform: rotate(340deg);
+    transform: rotate(340deg);
+    background-color: transparent;
+    text-shadow: -12px -13px 0px rgba(150, 150, 150, 0.5);
+}
+
+.logo-film {
+    color: rgba(122,79,71,0.9);
+    margin-bottom: 1vh;
+    font-weight: 200;
+    font-size: 10rem;
+    letter-spacing: -20px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+.logo-container {
+    /*padding: 0% 3% 2% 0%;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.logo {
+    color: rgb(223,105,120);
+    font-family: 'Engagement', cursive;
+    font-size: 12rem;
+    font-weight: 400;
+    line-height: .1;
+}
+
+.logo-impact {
+    color: rgba(122,79,71,0.8);
+    font-family: 'Gravitas One', serif;
+    font-size: 9rem;
+    font-weight: 600;
+    line-height: .7;
+    margin: 2vh;
+}
+/************* subheader row *************/
+.subheader {
+    color: rgb(250, 122, 156);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: .9;
+    margin: 2vh 0 3vh 0;
+}
+/************* icon row *************/
+.idea-row ul {
+    background: linear-gradient(to right, rgba(122,79,71,0.2), #D3C4BE,rgba(228,204,194,0.3),#EBCFC4,#E9CCB1,rgba(122,79,71,0.2));
+    color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+.idea-row .glyphicon {
+    font-size: 5rem;
+    background-color: transparent;
+}
+
+h6 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 1px;
+}
+/*new ******************************************/
+.eventsRow {
+    color: wheat;
+    background-color: maroon;
+}
+
+.title {
+    color: maroon;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+    .pictures img {
+        height: 5vh;
+    }
+/*new ******************************************/
+
+/***********color-columns ************/
+.inner-title-container {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255,216,190,0.5);
+}
+
+.packages-title {
+    line-height: .9;
+    margin: 0;
+    padding: 0;
+    color: rgb(223,111,124);
+}
+/*gallery*/
+.photo-gallery {
+    margin: 0;
+    padding: 0;
+}
+
+    .photo-gallery img {
+        height: 150px;
+    }
+
+.colored-columns-section {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 0 0;
+    padding: 0% 0%;
+}
+
+.colored-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0% 2%;
+    max-width: 25%;
+}
+
+    .colored-columns h3 {
+        padding: 2% 0 1% 0;
+        /*width: 100%;*/
+        color: white;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    .colored-columns .glyphicon {
+        color: white;
+        font-size: 6rem;
+        margin: 0%;
+        background-color: transparent;
+        /*text-shadow: 3px 9px 0px rgba(150,70, 50, 0.3);*/
+    }
+
+.price {
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+/*    background-colors: ;
+ 247,189,169
+    241,173,173
+    246,189,191
+    236,196,157
+    239,192,185
+    237,181,168
+    237,202,168
+    247.206,183
+    rgba(226,156,117,0.9)***
+        background: linear-gradient(pink,rgba(227,171,158,0.9));
+
+        background: linear-gradient(rgba(239,192,185,0.5),rgba(220,190,200,0.8));
+
+*/
+.color1 {
+    background: linear-gradient(pink,rgb(249, 119, 158));
+}
+
+.color2 {
+    background: linear-gradient(rgb(242, 128, 168),rgb(255, 165, 165));
+}
+
+.color3 {
+    background: linear-gradient(pink,rgb(241,112,123));
+}
+
+.color4 {
+    background: linear-gradient(rgb(252, 156, 182),rgb(255, 135, 152));
+}
+
+.color5 {
+    background: linear-gradient(rgb(255, 135, 152),lightcoral);
+}
+
+.color6 {
+    background: linear-gradient(rgb(242, 109, 117),rgb(255, 135, 152));
+}
+
+.color7 {
+    background: linear-gradient(rgb(255, 135, 152),rgb(249, 119, 158));
+}
+
+.color8 {
+    background: linear-gradient(rgb(241,112,123), lightpink);
+}
+/*************** contact **************/
+form {
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: rgba(122,80,70,0.1);
+}
+
+input {
+}
+
+.submit-button {
+    background-color: #E9CCB1;
+    color: rgb(122,79,71);
+}
+/************* social icons ************/
+.social-icons-section {
+    margin: 3% 0 0 0;
+    padding: 1% 0;
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+    justify-content: space-around;
+    font-size: 5rem;
+    background: linear-gradient(to right,rgba(255,255,255,0.2),antiquewhite,rgba(243,223,200,0.4),antiquewhite,rgba(255,255,255,0.2));
+}
+
+    .social-icons-section .fa {
+        color: rgb(122,79,71);
+        margin-right: 1%;
+    }
+
+        .social-icons-section .fa:hover {
+            text-shadow: 0px 0px 30px rgba(0,0,0,0.3);
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+        }
+
+.contacts-icons-section {
+    padding: 1% 20%;
+    font-size: 5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to right,#E9CCB1,rgba(217, 168,143,0.5),#E9CCB1);
+}
+/************** reviews ***************/
+.reviews-row {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 3% 0;
+    padding: 1% 0 0.5% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #D3C4BE,rgba(122,79,71,0.6),rgba(122,79,71,0.6), #D3C4BE);
+}
+    /*#EBCFC4*/
+    .reviews-row .signature {
+        color: antiquewhite;
+        font-family: 'Engagement', cursive;
+        text-align: right;
+        font-size: 5rem;
+        font-weight: 500;
+        padding: 1rem 0 0 0;
+    }
+
+.home-page-body {
+    background-image: url('Images/sharon-mccutcheon-576867-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*************** footer *************/
+footer {
+    color: rgb(184,164,158);
+    background-color: #EBCFC4;
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 1vh 0 0 0;
+}
+
+.glyphicon-circle-arrow-up {
+    font-size: 6rem;
+    font-weight: 900;
+}
+/************* contact **************/
+#contactUs-page {
+    margin: 0;
+    background-size: cover;
+}
+
+    #contactUs-page a {
+        font-weight: 900;
+        font-size: 4rem;
+    }
+
+        #contactUs-page a:hover {
+            text-decoration: none;
+        }
+
+#contactUs-inner-page {
+    height: 72vh;
+    background: linear-gradient(to right,lightcoral,hotpink,tomato,salmon,violet,hotpink);
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.4),0 5px 100px 0 rgba(0,0,0,0.2),0 5px 80px 0 lightsalmon inset;
+}
+
+#get-in-touch {
+}
+
+#contactUs-top-layer {
+    margin: 5rem;
+    box-shadow: 0 5px 20px 0 rgba(30,0,0,0.4),0 5px 100px 0 rgba(0,0,0,0.2),0 5px 80px 0 moccasin inset;
+}
+
+#contactUs-section {
+    margin: 0 1vw 13vh 1vw;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+#contactUs-top-layer h3 {
+    font-size: 3rem;
+}
+
+#contactUs-top-layer p {
+    font-size: 2rem;
+}
+/************* package options *************/
+.picture-gallery-container {
+    background-color: beige;
+    margin: 0%;
+    padding: 6vh 7vw;
+}
+
+    .picture-gallery-container .subheader {
+        line-height: 1;
+    }
+
+.boxes {
+    padding: 3% 1%;
+    /*margin: 1% 3%;*/
+    background-color: beige;
+    font-size: 2rem;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    border-radius: 1%;
+}
+
+    .boxes p {
+        padding: 3% 1%;
+        margin: 0% 0%;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+        border-radius: 1%;
+    }
+
+    .boxes .glyphicon {
+        color: tan;
+        font-size: 5rem;
+        font-weight: 600;
+        background-color: transparent;
+        padding: 6% 0;
+    }
+
+
+/*contact*/
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.button {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2vh 1vw;
+    margin: 2vh 0;
+    color: tan;
+    background-color: pink;
+    border: 1px dotted tan;
+    border-radius: 8px;
+}
+
+    .button:hover {
+        text-decoration: none;
+        color: rgba(122,79,71,0.8); /*chocolate*/
+        background-color: rgba(122,79,71,0.3);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
