@@ -1,112 +1,100 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Anytime Anywhere Photo Booth</title>
+    <title>Anytime Anywhere Photo Booth About</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="blog.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:300,400|Mukta:400,700,800|Prosto+One" rel="stylesheet">
-    <link rel="stylesheet" href="StyleSheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Gravitas+One|Engagement|Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Fredoka+One|Titan+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSheet3.css">
 </head>
 <body>
-    <!-- navbar -->
-    <div id="home-page">
+    <!-------------------------------------------------->
+    <div id="contact-page">
         <ul id="menu">
-            <li><a href="Index.html"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a></li>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="PackageOptions.html">Packages</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="Reservations.html">Reservations</a></li>
-            <li><a href="About.html">About</a></li>
+            <!-- navbar -->
+            <li><div id="nav-logo"><span class="glyphicon glyphicon-camera logo-pic-nav" aria-hidden="true"></span><h3 class="logo-script-nav">Anytime<br> Anywhere</h3><h3 class="logo-nav">Photo Booth</h3></div></li>
+            <li><a href="IndexI.html">Home</a></li>
+            <li><a href="PackagesI.html">Packages</a></li>
+            <li><a href="Reservations.html" class="current-page">Inquiry</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
-    </div>     <!-- end of navbar -->
-    <!-- header -->
-    <div class="reservation-page">
-        <!--<header id="packages-title">-->
-        <div class="reservations-header">
-            <h2>
-                <span class="logo">Anytime Anywhere </span><br><span class="logo-impact">Photo Booth</span>
-            </h2>
-            <h3 class="subheader">Tell Us About Your Event...</h3>
-        </div>
-    </div>
-    <!-- end of header -->
+        <!-------------------------------------------------->
+        <div id="contact-page-body">
+            <!--contact form--->
+            <div class="contacts-form">
+                <!--mechels email new email for photo booth?-->
+                <form action="https://formspree.io/mgreggphotobooth@gmail.com"
+                      method="POST">
+                    <fieldset>
+                        <legend>Contact Details</legend>
+                        <div class="flex-grid contact-fieldset">
+                            <label for="firstName">First Name</label>
+                            <input autofocus required autocomplete="given-name" type="text" id="firstName" name="firstName">
 
-    <div id="reservations-page">
-        <!-- contact form -->
-        <div class="contact-us-row">
-            <div class="col-sm-8">
-                <div class="contact-form">
-                    <form action="action_page.php">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="lastName">Last Name</label>
+                            <input autocomplete="last-name" type="text" id="lastName" name="lastName">
 
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <label for="phone"> <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>   Phone</label>
+                            <input pattern="[0-9]*" autocomplete="phone" type="tel" id="phone" name="phone">
 
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                        <input type="email" id="lname" name="email" placeholder="Your email..">
+                            <label for="phone"> <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>   Alt Phone</label>
+                            <input pattern="[0-9]*" autocomplete="phone" type="tel" id="phone" name="phone">
 
-                        <br>
-                        <label for="event">Event Type</label>
-                        <select id="event" name="event">
-                            <option value="australia">Birthday Party</option>
-                            <option value="canada">Wedding Reception</option>
-                            <option value="usa">Shower</option>
-                            <option value="usa">Other</option>
-                        </select>
-                        <label for="event">Package Selection</label>
-                        <select id="event" name="event">
-                            <option value="australia">Economy Package</option>
-                            <option value="canada">Wedding Reception</option>
-                            <option value="usa">Shower</option>
-                            <option value="usa">Other</option>
-                        </select>
+                            <label for="email"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>    Email</label>
+                            <input autocomplete="email" type="email" id="email" name="email">
+                        </div>
+                    </fieldset>
 
-                        <label for="subject">Comments</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <fieldset id="event-fieldset">
+                        <legend>Event Details</legend>
+                        <div class="flex-grid">
+                            <label for="eventType"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Select an event option.</label>
+                            <select id="eventType" name="eventType">
+                                <option>Birthday</option>
+                                <option>Wedding</option>
+                                <option>Engagement Party</option>
+                                <option>Baby Shower</option>
+                                <option>Graduation</option>
+                                <option>School Event</option>
+                                <option>Corporate Event</option>
+                                <option>Religious Organization</option>
+                                <option>Other</option>
+                            </select>
 
-                        <input type="submit" value="Submit">
-                        <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
-                    </form>                    
-                </div>
+                            <label for="eventDate"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> What day is your event?</label>
+                            <input type="date" id="eventDate" name="eventDate">
+
+                            <!--min max?-->
+                            <label for="eventtime"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> What time is your event?</label>
+                            <input type="time" id="eventtime" name="eventtime">
+
+                            <label for="comments"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Any questions or comments...</label>
+                            <textarea id="comments" name="comments"></textarea>
+                            <input type="submit" value="SUBMIT" id="submitButton">
+                        </div>
+                    </fieldset>
+                </form>
             </div>
-            <div class="col-sm-4">
-                <div class="contact-form-pictures">
-                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
-                    <p class="email">440.323.9090</p>
-                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                    <p class="email">mgregg@gmail.com</p>
-                </div>
+            <!--social-->
+            <div class="social-icons-box">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-pinterest"></a>
             </div>
         </div>
+        <!-------------------------------------------------->
+        <footer>
+            <p><a href="#top"><span class="glyphicon glyphicon-circle-arrow-up" aria-hidden="true"></span></a></p>
+            <p><a href="hollynlittle.github.io">Holly N. Little</a></p>
+        </footer>
     </div>
-
-    <!--social media section -->
-    <!--<section class="social-icon-section">
-        <div class="social-icons-header"><h2> Connect with us...</h2></div>
-        <div class="social-icons">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-        </div>
-    </section>-->
-
-    <!--footer-->
-    <!--<footer>
-        <p>
-            <a href="#sheer-section"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></a>
-        </p>
-        <h5>Created by: <a href="hollynlittle.github.io">Holly N. Little <i class="fab fa-hire-a-helper"></i></a></h5>
-    </footer>-->
-    <!--scripts-->
-
     <!--scripts-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -114,3 +102,99 @@
             crossorigin="anonymous"></script>
 </body>
 </html>
+<!--reviews-->
+<!--<div class="row reviews-row">
+    <div class="col-sm-4 review-box">
+        <div class="box-4">
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p class="price signature">~ Holly</p>
+        </div>
+    </div>
+    <div class="col-sm-4 review-box">
+        <div class="box-4">
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p class="price signature">~ Kimberly</p>
+        </div>
+    </div>
+    <div class="col-sm-4 review-box">
+        <div class="box-4">
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p class="price signature">~ Anna</p>
+        </div>
+    </div>
+</div>-->
+<!--social icons--->
+<!--<div class="social-icons-section">
+    <div class="social-icons-box">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+    </div>
+</div>-->
+<!--icons---->
+<!--<div class="idea-row idea-row2">
+    <ul>
+        <li><h6>Weddings </h6><span class="glyphicon glyphicon-glass" aria-hidden="true"></span></li>
+        <li><h6>Birthdays </h6>
+    <span class="glyphicon glyphicon-baby-formula" aria-hidden="true"></span>
+    </li>
+        <li><h6>Family Reunions </h6><span class="glyphicon glyphicon-home" aria-hidden="true"></span></li>
+        <li><h6>Corporate Events </h6><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></li>
+        <li><h6>Graduations </h6><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></li>
+        <li><h6>Holidays </h6><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></li>
+        <li><h6>Parties </h6><span class="glyphicon glyphicon-music" aria-hidden="true"></span></li>
+    </ul>
+</div>-->
+<!--social media section -->
+<!--<section class="social-icon-section">
+    <div class="social-icons-header"><h2> Connect with us...</h2></div>
+    <div class="social-icons">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+    </div>
+</section>-->
+<!--footer-->
+<!--<footer>
+    <p>
+        <a href="#sheer-section"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></a>
+    </p>
+    <h5>Created by: <a href="hollynlittle.github.io">Holly N. Little <i class="fab fa-hire-a-helper"></i></a></h5>
+</footer>-->
+<!--scripts-->
+<!-- <aside>
+     <div class="logo-container">
+         <div class="logo-camera-box">
+             <span class="glyphicon glyphicon-camera  logo-camera" aria-hidden="true"></span>
+         </div>
+         <div class="logo-text-box">
+             <h2 class="logo">
+                 Anytime
+             </h2>
+             <h2 class="logo">
+                 Anywhere
+             </h2>
+             <div class="logo-serif">
+                 <h1 class="logo-impact">
+                     Photo
+                 </h1>
+                 <h1 class="logo-impact">
+                     Booth
+                 </h1>
+             </div>
+         </div>
+     </div>
+ </aside>-- end of aside -->
+<!--<div class="reservations-picture">
+    <div class="reservations-picture-text">
+        <h2>Let's get started...</h2>
+        <h2>Tell us about your event and we will typically get back to you in less than 24 hours.</h2>
+        <img src="Images/blackmask.jpg" />
+    </div>
+</div>-->
